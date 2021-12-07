@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Качественный ремонт авто, разширенный спектр работ, грамотные специалисты">
+  <meta name="keywords" content="СТО Минск, ремонт автомобилей, качественный ремонт авто, Минск ремонт автомобилей">
+  <meta name="robots" content="none">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content='ООО "АлеМаксГарант"'>
+  <meta property="og:description" content='Автосервиc АлеМаксГарант качественно, быстро, честно и с душой'>
+  <meta property="og:image" content='/images/graph.png'>
+  <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="200" />
+  <meta property="og:url" content='http://amg.by/'>
+  <meta property="og:site_name" content='СТО АлеМаксГарант'>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <title>ООО "АлеМаксГарант"</title>
+</head>
+<body>
+  <div class="wrapper-form-callback">
+    <div class="wrapper-flex d-flex justify-content-center align-items-center">
+       <form action="/mail.php" method="post" class="postcard">
+        <div class="form-row">
+          <label for="name">Ваше имя</label><input type="text" name="name" id="name" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Ваш номер телефона</label><input type="text" name="phone" id="phone" required>
+        </div>
+        <div class="form-row">
+          <input type="submit" value="Отправить">
+        </div>
+      </form>
+    </div>
+  </div>
+    <div class="wrapper-nav-burger d-flex align-items-start w-100">
+      <ul
+        class="wrapper-inner-nav-burger d-flex flex-derection-column navbar-nav d-flex align-items-start justify-content-between w-100">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Главная</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus">О нас</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#service">Услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#stock">Акции</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Рассрочка</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#price">Стоимость</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Контакты</a>
+        </li>
+        <li class="d-flex align-items-center nav-item phone-nav">
+          <a class="text-black phone-contact" href="tel:+375292845438">+375-29-284-54-38</a><img src="./images/mts.webp" width="23" height="23" alt="МТС"> 
+        </li>
+        <li class="d-flex align-items-center nav-item phone-nav">
+          <a class="text-black phone-contact" href="tel:+375447577585">+375-44-757-75-85</a><img src="./images/a1-ico.webp"  width="32" height="32" alt="А1">
+        </li>
+      </ul>
+    </div>
+    <div class="wrapper-site wrapper-site-navbar">
+      <svg style="transform: rotate(90deg)" width="20" height="20" class="arrow-top" viewbox="0 0 60 100">
+        <path d="M 50,0 L 60,10 L 20,50 L 60,90 L 50,100 L 0,50 Z"></path>
+      </svg>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container container-nav d-flex justify-content-between align-items-center">
+          <div class="block-nav-991 d-flex align-items-center">
+            <a class="navbar-brand me-5 d-flex align-items-center" href="#"><img src="/images/logo.webp" alt="Логотип"><div class="wrapper-text-brand"><p>АлеМаксГарант</p>
+              <p>Качественный ремонт авто</p></div></a>
+            <ul class="d-flex flex-derection-column">
+              <li class="call d-flex align-items-center justify-content-between">
+                <a class="phone" href="tel:+375292845438">+375-29-284-54-38</a><img src="./images/mts.webp" width="23" height="23" alt="МТС">
+              </li>
+              <li class="call d-flex align-items-center justify-content-between">
+                <a class="phone" href="tel:+375447577585">+375-44-757-75-85</a><img src="./images/a1-ico.webp" alt="А1" width="32" height="32">
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand d-none-991 me-5 d-flex align-items-center" href="#"><img src="/images/logo.webp" alt="Логотип"><div class="wrapper-text-brand"><p>АлеМаксГарант</p>
+          <p>Качественный ремонт авто</p></div></a>
+          <ul class="d-flex flex-derection-column d-none-991">
+            <li class="call d-flex align-items-center justify-content-between">
+              <a class="phone" href="tel:+375292845438">+375-29-284-54-38</a><img src="./images/mts.webp" width="23" height="23" alt="МТС" >
+            </li>
+            <li class="call d-flex align-items-center justify-content-between">
+              <a class="phone" href="tel:+375447577585">+375-44-757-75-85</a><img src="./images/a1-ico.webp"  width="32" height="32" alt="А1">
+            </li>
+          </ul>
+          <button id="nav-icon3" class="navbar-toggler p-0 m-0" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          </div>
+      </nav>
+  </div>
+  <div class="wrapper-content">
+  <header class="header img-h d-flex align-items-center">
+    <div class="banner container d-flex flex-derection-column align-items-center">
+      <h1 class="text-banner">OOO "АлеМаксГарант"</h1>
+      <p class="title-banner text-center">Автосервиc АлеМаксГарант <br> качественно, быстро, <br> честно и с душой </p>
+      <button class="button-call-back button-call-back-page mt-5">Заказать
+        звонок</button>
+    </div>
+  </header>
+  <main class="main">
+    <div class="block-main about-us img-h d-flex align-items-center" id="aboutus">
+      <div class="container container-main d-flex flex-derection-column justify-content-center align-items-center">
+        <h2 class="heading-path text-white pt-5 text-center">О нас</h2>
+        <p class="ours-advantages text-white">Почему клиенты выбирают нас</p>
+        <ul class="list-advantages">
+          <li class="item-advndages text-white">Индивидуальный подход к каждому автомобилю</li>
+          <li class="item-advndages text-white">Квалифицированные работники</li>
+          <li class="item-advndages text-white">Широкий спектр услуг</li>
+          <li class="item-advndages text-white">Гарантия на работы и запчасти</li>
+          <li class="item-advndages text-white">Запчасти от проверенных поставщиков</li>
+          <li class="item-advndages text-white">Удобное расположение в центре города</li>
+        </ul>
+        <div class="bg-about"></div>
+        <button class="button-call-back button-call-back-page button-call-back-advan">Заказать звонок</button>
+      </div>
+    </div>
+    <div class="block-main service img-h d-flex align-items-center" id="service">
+      <div class="container d-flex flex-derection-column justify-content-center align-items-center">
+        <h2 class="heading-path text-white pt-5 text-center">Услуги</h2>
+        <ul class="list-advantages">
+          <li class="item-advndages text-white">Диагностика и ремонт подвески</li>
+          <li class="item-advndages text-white">Ремонт двигателя</li>
+          <li class="item-advndages text-white">Ремонт рулевого управления</li>
+          <li class="item-advndages text-white">Ремонт ходовой части</li>
+          <li class="item-advndages text-white">Ремонт тормозной системы</li>
+          <li class="item-advndages text-white">Ремонт АКПП и КПП</li>
+          <li class="item-advndages text-white">3d развал-сождения</li>
+          <li class="item-advndages text-white">Ремонт выхлопной системы</li>
+        </ul>
+        <button class="button-call-back button-call-back-page">Заказать звонок</button>
+      </div>
+    </div>
+    <div class="block-main stock img-h d-flex align-items-center" id="stock">
+      <div class="container d-flex flex-derection-column justify-content-center align-items-center">
+        <h2 class="heading-path text-white pt-5 text-center">Акции</h2>
+        <ul class="list-advantages">
+          <li class="item-advndages text-white">трататататата</li>
+          <li class="item-advndages text-white">трататататата</li>
+          <li class="item-advndages text-white">трататататата</li>
+          <li class="item-advndages text-white">трататататата</li>
+          <li class="item-advndages text-white">трататататата</li>
+          <li class="item-advndages text-white">трататататата</li>
+          <li class="item-advndages text-white">трататататата</li>
+          <li class="item-advndages text-white">трататататата</li>
+        </ul>
+        <button class="button-call-back button-call-back-page">Заказать звонок</button>
+      </div>
+    </div>
+    <div class="block-main price img-h d-flex align-items-center" id="price">
+      <div class="container d-flex flex-derection-column justify-content-center align-items-center">
+        <h2 class="heading-path text-white pt-5 text-center">Стоимость</h2>
+        <div class="wrapper-price d-flex flex-derection-column justify-content-center">
+          <ul class="list-advantages d-flex flex-derection-column">
+            <li class="item-advndages text-white">Ремонт генераторов, стартеров от 35</li>
+            <li class="item-advndages text-white">Замена масла, фильтров от 15</li>
+            <li class="item-advndages text-white">Замена ремней ГРМ от 150</li>
+            <li class="item-advndages text-white">Ремонт тормозной системы от 20</li>
+            <li class="item-advndages text-white">Ремонт глушителей от 20</li>
+            <li class="item-advndages text-white">Ремонт тормозных суппортов от 50</li>
+            <li class="item-advndages text-white">Ремонт рулевых реек от 200</li>
+            <li class="item-advndages text-white">Ремонт подвески от 20</li>
+            <li class="item-advndages text-white">Развал схождения от 35</li>
+            <li class="item-advndages text-white">Замена сцепления от 150</li>
+            <li class="item-advndages text-white">Ремонт системы охлаждения от 20</li>
+            <li class="item-advndages text-white">Ремонт и обслуживание АКПП и МКПП от 50</li>
+            <li class="item-advndages text-white">Проточка тормозных дисков от 50</li>
+            <li class="item-advndages text-white">Автоэлектрик от 35</li>
+          </ul>
+        </div>
+        <button class="button-call-back button-call-back-page">Заказать звонок</button>
+      </div>
+    </div>
+    <div class="block-main contact" id="contact">
+      <h2 class="heading-path text-center">Контакты</h2>
+      <div class="container wrapper-contact-main d-flex justify-content-around align-items-start">
+        <!-- <p class="">Адрес: г. Минск, пер. Козлова 9 Г</p>
+        <p>Электронная почта: <a class="email" href="mailto:Alemaksgarant@gmail.com">Alemaksgarant@gmail.com</a></p> -->
+        <div class="wrapper-contact d-flex flex-derection-column justify-content-center">
+          <p class="contact-adress">Электронная почта: <a class="text-black contact-adress" href="mailto:Alemaksgarant@gmail.com">Alemaksgarant@gmail.com</a></p>
+          <ul class="d-flex flex-derection-column">
+            <li class="d-flex align-items-center">
+              <a class="text-black phone-contact" href="tel:+375292845438">+375-29-284-54-38</a><img src="./images/mts.webp" width="23" height="23" alt="МТС">
+            </li>
+            <li class="d-flex align-items-center">
+              <a class="text-black phone-contact" href="tel:+375447577585">+375-44-757-75-85</a><img src="./images/a1-ico.webp"  width="32" height="32" alt="А1">
+            </li>
+          </ul>
+          <p class="text-from-form">Оставить заявку</p>
+          <form action="/mail.php" method="post" class="postcard">
+        <div class="form-row">
+          <label for="name">Ваше имя</label><input type="text" name="name" required>
+        </div>
+        <div class="form-row">
+          <label for="phone">Ваш номер телефона</label><input type="text" name="phone" required>
+        </div>
+        <div class="form-row">
+          <input type="submit" value="Отправить">
+        </div>
+        </form>
+        </div>
+        <div>
+          <p class="contact-adress">Адрес: г. Минск, пер. Козлова 9 Г</p>
+          <iframe class="map-contact" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.9481464132173!2d27.59726951585933!3d53.8971255800982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbce4a5d164489%3A0xeeccf1593d7ad2d!2z0L_QtdGA0LXRg9C70L7QuiDQmtC-0LfQu9C-0LLQsCA5LCDQnNC40L3RgdC6!5e0!3m2!1sru!2sby!4v1636972726614!5m2!1sru!2sby" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <!-- <button class="button-call-back button-call-back-page">Заказать звонок</button> -->
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="block-main d-flex align-items-center">
+      <div class="container d-flex flex-derection-column justify-content-center align-items-center">
+        <a class="navbar-brand d-none-991 me-5 d-flex align-items-center" href="#"><img src="/images/logo.webp" alt="Логотип"><div class="wrapper-text-brand"><p>АлеМаксГарант</p>
+          <p>Качественный ремонт авто</p></div></a>
+        <ul class="list-nav-footer d-flex">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutus">О нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#service">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stock">Акции</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Рассрочка</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#price">Стоимость</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Контакты</a>
+          </li>
+        </ul>
+        <p class="text-center">© ООО «АлеМаксГарант», 2021.</p>
+      </div>
+    </div>
+  </footer>
+  </div>
+  <script defer src="/js/main.js"></script>
+</body>
+
+</html>
